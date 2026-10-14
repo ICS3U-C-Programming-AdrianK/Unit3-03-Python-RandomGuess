@@ -16,9 +16,7 @@ def main():
     # check if the user guess is correct
     if user_number == number:
         print("you guessed correctly!!")
-
-    # check if the user guess is wrong
-    if user_number != number:
+    else :
         print("you guessed wrong!!")
         print("The correct answer was : {}".format(number))
 
